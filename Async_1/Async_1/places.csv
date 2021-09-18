@@ -1,0 +1,35 @@
+Type,Name,Rating,Cost,Distance
+Restaurant,Musang,4,$$,0.1
+Restaurant,Bateau,4,$$$,0.3
+Restaurant,Tamura,4,$$,0.1
+Restaurant,Canlis,5,$$$,0.2
+Restaurant,Bar del Corso,5,$,0.2
+Restaurant,Dacha Diner,5,$,0.4
+Restaurant,Lark,5,$$$,0.2
+Restaurant,Champagne Diner,5,$$,0.1
+Restaurant,Lil Red Takeout,5,$,0.7
+Restaurant,The Walrus and the Carpenter,5,$$,0.1
+Restaurant,Xian Noodles,5,$$,0.1
+Restaurant,Sawyer,5,$$$,0.4
+Restaurant,Spinase,5,$$,0.8
+Restaurant,Kamonegi,5,$$,0.8
+Restaurant,Reckless Noodles and Cocktails,4,$$,0.7
+Restaurant,Il Nido,5,$$$,0.5
+Restaurant,Communion,4,$$,0.2
+Restaurant,Pho Back Suo Shop,4,$$,0.1
+Restaurant,Meesha,5,$$,0.2
+Restaurant,Carmelo's Tacos,4,$,0.1
+Cafe,Storyville,4,$$,0.1
+Cafe,Espresso Vivace,4,$$$,0.3
+Cafe,Monrail Espresso,4,$$,0.1
+Cafe,Milstead,4,$$$,0.2
+Cafe,Moore Coffee,5,$,0.2
+Cafe,Victrola Cafe,5,$,0.4
+Cafe,Elm Coffee Roasters,5,$$$,0.2
+Cafe,Espresso Vivace Sidewalk Bar,4,$$,0.1
+Cafe,Seattle Coffee Works,5,$,0.7
+Cafe,Zeitgeist Kunst & Kaffeer,4,$$,0.1
+Cafe,Fremont Coffee Company,5,$$,0.1
+Cafe,Slate Coffee Bar,5,$$$,0.4
+Cafe,La Marzocco Cafe,5,$$,0.8
+Cafe,Top Pot Doughnuts,3,$$,0.8
