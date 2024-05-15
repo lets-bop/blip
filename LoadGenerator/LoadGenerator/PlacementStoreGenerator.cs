@@ -23,22 +23,22 @@ namespace LoadGenerator
         public async Task StartAsync(int count = 1)
         {
             Console.WriteLine("Awaiting for the task to complete");
-            await this.justWaitTask;
+            // await this.justWaitTask;
 
-            //List<Task<string>> tasks = new List<Task<string>>();
-            //for (int i = 0; i < count; i++)
-            //{
-            //    tasks.Add(this.MakeCall("client1", Guid.NewGuid()));
-            //}
+            List<Task<string>> tasks = new List<Task<string>>();
+            for (int i = 0; i < count; i++)
+            {
+                tasks.Add(this.MakeCall("client1", Guid.NewGuid()));
+            }
 
-            //int c = 0;
-            //foreach (var task in tasks)
-            //{
-            //    Console.WriteLine("Waiting for tasks: {0}", c++);
-            //    task.Wait();
-            //    // Console.WriteLine(task.Result);
-            //    task.Dispose();
-            //}
+            int c = 0;
+            foreach (var task in tasks)
+            {
+                Console.WriteLine("Waiting for tasks: {0}", c++);
+                task.Wait();
+                // Console.WriteLine(task.Result);
+                task.Dispose();
+            }
         }
 
         private async Task JustWait()
